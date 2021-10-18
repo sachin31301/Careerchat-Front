@@ -53,7 +53,7 @@ export default function Login() {
               className="loginInput"
               ref={password}
             />
-            <button className="loginButton" onClick={fillGuestCredentials}>Fill Guest Credentials</button>
+            <button className="loginButton" onClick={fillGuestCredentials}>Login as Guest</button>
             <button className="loginButton" type="submit" disabled={isFetching}>
               {isFetching ? (
                 <CircularProgress color="white" size="20px" />
