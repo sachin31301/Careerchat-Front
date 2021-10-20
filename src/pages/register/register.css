@@ -83,3 +83,21 @@
     cursor: pointer;
     margin: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .loginWrapper{
+      flex-direction: column;
+  }
+  .loginLeft{
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    margin: 20px;
+    
+  }
+  .loginDesc{
+    font-size: 15px;
+    
+  }
+}

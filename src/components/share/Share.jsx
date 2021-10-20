@@ -78,11 +78,11 @@ export default function Share() {
                 onChange={(e) => setFile(e.target.files[0])}
               />
             </label>
-            <div className="shareOption">
+            <div className="shareOption extra">
               <Label htmlColor="blue" className="shareIcon" />
               <span className="shareOptionText">Tag</span>
             </div>
-            <div className="shareOption">
+            <div className="shareOption extra">
               <Room htmlColor="green" className="shareIcon" />
               <span className="shareOptionText">Location</span>
             </div>
@@ -90,6 +90,7 @@ export default function Share() {
               <EmojiEmotions htmlColor="goldenrod" className="shareIcon" />
               <span className="shareOptionText">Feelings</span>
             </div>
+            
           </div>
           <button className="shareButton" type="submit">
             Share

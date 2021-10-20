@@ -22,8 +22,18 @@
   font-weight: 500;
 }
 
-@media screen and (max-width: 768px) {
-  .conversationName {
-    display: none;
+@media only screen and (max-width: 768px) {
+  
+  .conversation{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x: scroll;
+  }
+  .conversationName{
+    text-align: center;
+    font-size: smaller;
+    display: block;
   }
 }

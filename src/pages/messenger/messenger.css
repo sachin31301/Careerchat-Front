@@ -73,7 +73,7 @@
   cursor: default;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .chatMenu {
     flex: 1;
   }
@@ -89,4 +89,11 @@
   .chatOnline{
     flex: 1px;
   }
+  .messenger{
+    display: inline;
+  }
+  .chatMenuWrapper{
+    display: flex;
+  }
+  
 }

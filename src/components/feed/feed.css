@@ -5,3 +5,18 @@
 .feedWrapper{
     padding: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .feed{
+        padding: 0;
+    }
+    .feedWrapper{
+        padding: 0;
+        width: 100vw;
+        box-sizing: border-box;
+        overflow: hidden;
+        position: absolute;
+    }
+    
+  }

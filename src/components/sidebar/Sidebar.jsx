@@ -1,4 +1,5 @@
 import "./sidebar.css";
+import "C:/My projects/CareerChats/frontend/src/pages/home/home.css"
 import {
   RssFeed,
   Chat,

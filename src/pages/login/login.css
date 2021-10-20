@@ -29,7 +29,7 @@
 }
 
 .loginDesc {
-  font-size: 24px;
+  font-size: 14px;
 }
 
 .loginBox{
@@ -89,4 +89,22 @@
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .loginWrapper{
+      flex-direction: column;
+  }
+  .loginLeft{
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    margin: 10px;
+    
+  }
+  .loginDesc{
+    font-size: 15px;
+    
+  }
 }

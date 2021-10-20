@@ -102,4 +102,13 @@
   .topbarLink{
     display: none;
   }
+  .searchbar{
+    display: none;
+  }
+  
+  .topbarContainer{
+    overflow: hidden;
+    width: 100vw;
+  }
+  
 }
